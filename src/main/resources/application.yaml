@@ -1,0 +1,13 @@
+spring:
+  datasource:
+     username: hotels
+     password: hotels
+     url: jdbc:mysql://localhost:3306/hotels
+   
+  jpa:
+     hibernate:
+       ddl-auto: create
+     show-sql: true
+
+   
+  
